@@ -1,0 +1,33 @@
+# Ignore MySQL and PostgreSQL database dumps
+*.sql
+*.sql.gz
+*.dump
+*.tar
+
+# Ignore MySQL and PostgreSQL configuration files
+my.cnf
+pg_hba.conf
+postgresql.conf
+pgpass
+
+# Ignore database-specific files and directories
+db/
+data/
+mysql_data/
+postgres_data/
+*.pid
+*.sock
+
+# Ignore log files
+*.log
+*.log.*
+*.log.gz
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore backups
+backup/
+*.bak
